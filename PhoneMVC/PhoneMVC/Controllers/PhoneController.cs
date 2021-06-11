@@ -29,14 +29,24 @@ namespace PhoneMVC.Controllers
             return View("Views/Phone/OkPost.cshtml");
         }
 
-        public IActionResult Get()
+        [HttpGet]
+        public async Task<IActionResult> Get(string id)
         {
-            return View();
+            var phone = await _manageService.GetByIdAsync(id);
+            return View(phone);
         }
 
         public IActionResult Put()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Put(string id, string brand, string model, int price)
+        {
+            var result = await _manageService.UpdateAsync(id, brand, model, price);
+            ViewBag.Message = result;
+            return View("Views/Phone/OkPut.cshtml");
         }
 
         public IActionResult Delete()
