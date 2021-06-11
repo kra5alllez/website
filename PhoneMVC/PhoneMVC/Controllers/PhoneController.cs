@@ -4,19 +4,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PhoneMVC.Services.Interfaces;
 
 namespace PhoneMVC.Controllers
 {
     public class PhoneController : Controller
     {
+        private readonly IManageService _manageService;
+        public PhoneController(IManageService managerService)
+        {
+            _manageService = managerService;
+        }
+
         public IActionResult Post()
         {
             return View();
         }
 
-        public IActionResult Post(string brand, string model, int price)
+        [HttpPost]
+        public async Task<IActionResult> Post(string brand, string model, int price)
         {
-            return View();
+            var id = await _manageService.CreateAsync(brand, model, price);
+            ViewBag.Message = id;
+            return View("Views/Phone/OkPost.cshtml");
         }
 
         public IActionResult Get()
