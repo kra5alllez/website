@@ -12,18 +12,20 @@ namespace PhoneMVC.Services
     {
         private readonly ILogger<PhoneProvider> _logger;
         private readonly List<Phone> _entities = new List<Phone>();
+        private int _count;
 
         public PhoneProvider(ILogger<PhoneProvider> logger)
         {
             _logger = logger;
+            _count = 1;
         }
 
-        public async Task<string> CreateAsync(string brand, string model, int price)
+        public async Task<int> CreateAsync(string brand, string model, int price)
         {
             _logger.LogInformation($"Started {nameof(CreateAsync)}");
             return await Task.Run(() =>
             {
-                var id = Guid.NewGuid().ToString();
+                var id = _count++;
                 _entities.Add(new Phone()
                 {
                     Id = id,
@@ -36,7 +38,7 @@ namespace PhoneMVC.Services
             });
         }
 
-        public async Task<bool> UpdateAsync(string id, string brand, string model, int price)
+        public async Task<bool> UpdateAsync(int? id, string brand, string model, int price)
         {
             _logger.LogInformation($"Started {nameof(UpdateAsync)}");
 
@@ -56,10 +58,10 @@ namespace PhoneMVC.Services
             });
         }
 
-        public async Task<bool> DeleteAsync(string id)
+        public async Task<bool> DeleteAsync(int? id)
         {
             _logger.LogInformation($"Started {nameof(DeleteAsync)}");
-            if (string.IsNullOrEmpty(id))
+            if (id.HasValue)
             {
                 return false;
             }
@@ -76,7 +78,7 @@ namespace PhoneMVC.Services
             });
         }
 
-        public async Task<Phone> GetByIdAsync(string id)
+        public async Task<Phone> GetByIdAsync(int? id)
         {
             _logger.LogInformation($"Started {nameof(GetByIdAsync)}");
             return await Task.Run(() =>

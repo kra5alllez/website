@@ -26,14 +26,20 @@ namespace PhoneMVC.Controllers
         {
             var id = await _manageService.CreateAsync(brand, model, price);
             ViewBag.Message = id;
-            return View("Views/Phone/OkPost.cshtml");
+            return View("OkPost");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get(string id)
+        public IActionResult Get()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Get(int? id)
         {
             var phone = await _manageService.GetByIdAsync(id);
-            return View(phone);
+            ViewBag.Message = phone;
+            return View("GetOk");
         }
 
         public IActionResult Put()
@@ -42,16 +48,40 @@ namespace PhoneMVC.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Put(string id, string brand, string model, int price)
+        public async Task<IActionResult> Put(int? id, string brand, string model, int price)
         {
             var result = await _manageService.UpdateAsync(id, brand, model, price);
-            ViewBag.Message = result;
-            return View("Views/Phone/OkPut.cshtml");
+            if (result)
+            {
+                ViewBag.Message = "nice";
+            }
+            else
+            {
+                ViewBag.Message = "fall";
+            }
+
+            return View("OkPut");
         }
 
         public IActionResult Delete()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            var result = await _manageService.DeleteAsync(id);
+            if (result)
+            {
+                ViewBag.Message = "The operation was successful. Item deleted";
+            }
+            else
+            {
+                ViewBag.Message = "Item not deleted, please try again";
+            }
+
+            return View("OkDelete");
         }
     }
 }

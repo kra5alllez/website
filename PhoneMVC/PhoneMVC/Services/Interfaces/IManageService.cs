@@ -8,12 +8,12 @@ namespace PhoneMVC.Services.Interfaces
 {
     public interface IManageService
     {
-        Task<string> CreateAsync(string brand, string model, int price);
+        Task<int> CreateAsync(string brand, string model, int price);
 
-        Task<bool> UpdateAsync(string id, string brand, string model, int price);
+        Task<bool> UpdateAsync(int? id, string brand, string model, int price);
 
-        Task<bool> DeleteAsync(string id);
+        Task<bool> DeleteAsync(int? id);
 
-        Task<Phone> GetByIdAsync(string id);
+        Task<Phone> GetByIdAsync(int? id);
     }
 }

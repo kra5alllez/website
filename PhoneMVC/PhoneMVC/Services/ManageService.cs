@@ -19,25 +19,25 @@ namespace PhoneMVC.Services
             _phoneProvider = phoneProvider;
         }
 
-        public async Task<string> CreateAsync(string brand, string model, int price)
+        public async Task<int> CreateAsync(string brand, string model, int price)
         {
             _logger.LogInformation($"Started {nameof(CreateAsync)}");
             return await _phoneProvider.CreateAsync(brand, model, price);
         }
 
-        public async Task<bool> UpdateAsync(string id, string brand, string model, int price)
+        public async Task<bool> UpdateAsync(int? id, string brand, string model, int price)
         {
             _logger.LogInformation($"Started {nameof(UpdateAsync)}");
             return await _phoneProvider.UpdateAsync(id, brand, model, price);
         }
 
-        public async Task<bool> DeleteAsync(string id)
+        public async Task<bool> DeleteAsync(int? id)
         {
             _logger.LogInformation($"Started {nameof(DeleteAsync)}");
             return await _phoneProvider.DeleteAsync(id);
         }
 
-        public async Task<Phone> GetByIdAsync(string id)
+        public async Task<Phone> GetByIdAsync(int? id)
         {
             _logger.LogInformation($"Started {nameof(GetByIdAsync)}");
             return await _phoneProvider.GetByIdAsync(id);
