@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T09:05:34.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="C7CtEmuYio8iLCw8l_he" version="15.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-09T09:15:05.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="c5A7vpo4wYU5fdExcCy_" version="15.1.2" type="github" pages="3">
   <diagram id="z8XSQy6NJdfed3RCDAOh" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4225" dy="2423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,38 +10,38 @@
         <mxCell id="34TiSVf4T669szflKKgp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=13;endSize=10;" parent="1" source="xh8ISiVS043auZkgOC11-1" target="Ln3_IbKooGcjm2C1sA-I-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xh8ISiVS043auZkgOC11-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- ContextDB _context;&lt;br&gt;- IRepository&amp;lt;T&amp;gt; _repository;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;+ Repository&amp;lt;T&amp;gt; Repositories;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="874.38" y="210" width="418.75" height="200" as="geometry" />
+        <mxCell id="xh8ISiVS043auZkgOC11-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1075.01" y="260" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xh8ISiVS043auZkgOC11-12" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt; FindAllAsync();&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Task&amp;lt;T&amp;gt; FindAsync(int id);&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Task&amp;lt;int&amp;gt; AddAsync(T item);&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Task&amp;lt;int&amp;gt; UpdateAsync(T item);&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Task&amp;lt;int&amp;gt; RemoveAsync(int id);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ Task&amp;lt;T&amp;gt; Include(params string[] item)&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="800" width="341.25" height="160" as="geometry" />
+          <mxGeometry x="971.88" y="780" width="341.25" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xh8ISiVS043auZkgOC11-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IRepository&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1183.13" y="800" width="110" height="30" as="geometry" />
+          <mxGeometry x="1105.0100000000002" y="780" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xh8ISiVS043auZkgOC11-23" value="&lt;font style=&quot;font-size: 20px&quot;&gt;UnitOfWork&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="963.76" y="210" width="240" height="40" as="geometry" />
+          <mxGeometry x="1040.01" y="270" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;startSize=13;endSize=10;" parent="1" source="xh8ISiVS043auZkgOC11-28" target="Ln3_IbKooGcjm2C1sA-I-18" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endSize=11;" edge="1" parent="1" source="xh8ISiVS043auZkgOC11-28" target="Ln3_IbKooGcjm2C1sA-I-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=13;endSize=13;" parent="1" source="xh8ISiVS043auZkgOC11-28" target="Ln3_IbKooGcjm2C1sA-I-2" edge="1">
+        <mxCell id="xh8ISiVS043auZkgOC11-28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;- IReflectionService&amp;lt;T&amp;gt;&amp;nbsp; _reflectionService&lt;br&gt;&lt;br&gt;+ string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;FindAllQuery();&lt;br&gt;+string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;FindQuery(int id);&lt;br&gt;+ string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;AddQuery(T&amp;nbsp;item);&lt;br&gt;+ string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;UpdateQuery(T&amp;nbsp;item);&lt;br&gt;+ string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;RemoveQuery(int id);&lt;br&gt;+ string&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Generate&lt;/span&gt;IncludeQuery(params string[] item)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="320" width="410" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="MPQALlwBD312mudl7KqM-1" target="Ln3_IbKooGcjm2C1sA-I-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xh8ISiVS043auZkgOC11-28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;- IReflectionService&amp;lt;T&amp;gt;&amp;nbsp; _reflectionService&lt;br&gt;&lt;br&gt;+ string GetFindAllQuery();&lt;br&gt;+string&amp;nbsp;GetFindQuery(int id);&lt;br&gt;+ string GetAddQuery(T&amp;nbsp;item);&lt;br&gt;+ string GetUpdateQuery(T&amp;nbsp;item);&lt;br&gt;+ string GetRemoveQuery(int id);&lt;br&gt;+ string Include(params string[] item)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="265" width="410" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="Ln3_IbKooGcjm2C1sA-I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.464;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamondThin;startFill=1;endArrow=classic;endFill=1;startSize=13;endSize=13;" parent="1" source="MPQALlwBD312mudl7KqM-1" target="xh8ISiVS043auZkgOC11-28" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="MPQALlwBD312mudl7KqM-1" target="xh8ISiVS043auZkgOC11-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=13;endSize=13;" parent="1" source="MPQALlwBD312mudl7KqM-1" target="z89Pt_e9DT8PRtrNMS4P-7" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="MPQALlwBD312mudl7KqM-1" target="z89Pt_e9DT8PRtrNMS4P-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=13;endSize=13;" parent="1" source="MPQALlwBD312mudl7KqM-1" target="34TiSVf4T669szflKKgp-14" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="MPQALlwBD312mudl7KqM-1" target="Y4HKRLz9_n4AmhTxUSix-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPQALlwBD312mudl7KqM-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;- ContextDB _context;&lt;br&gt;- IQueryBuilderService&amp;lt;T&amp;gt; _queryBuilder&lt;br&gt;- IMapService&amp;lt;T&amp;gt;&amp;nbsp; mapService&lt;br&gt;- IRelatedEntityService&amp;lt;T&amp;gt; _relatedEntity&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt; FindAllAsync();&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;T&amp;gt; FindAsync(int id);&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; AddAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; UpdateAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; RemoveAsync(int id);&lt;br&gt;&lt;span style=&quot;background-color: transparent ; font-family: inherit ; font-style: inherit ; font-weight: inherit&quot;&gt;+&amp;nbsp; async Task&amp;lt;T&amp;gt; Include(params string[] item)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="571.25" width="390" height="247.5" as="geometry" />
+        <mxCell id="MPQALlwBD312mudl7KqM-1" value="&lt;font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;- IMapService&amp;lt;T&amp;gt; mapService;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;- IQueryBuilderService&amp;lt;T&amp;gt; queryBuilder;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;- IExecuteSQLQueryService executeSqlQueryService;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;- IContextDBService contextDBService;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;-&lt;/font&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;IDataReaderService dataReaderService;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/font&gt;&lt;font&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt; FindAllAsync();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;T&amp;gt; FindAsync(int id);&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;gt; AddAsync(T item);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;gt; UpdateAsync(T item);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&lt;font color=&quot;#ff0000&quot;&gt;?&lt;/font&gt;&amp;gt; RemoveAsync(int id);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;&lt;font face=&quot;inherit&quot;&gt;&lt;span style=&quot;font-size: 15px ; font-style: inherit ; font-weight: inherit&quot;&gt;+&amp;nbsp; async &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;inherit&quot;&gt;&lt;span style=&quot;font-size: 15px ; font-style: inherit ; font-weight: inherit&quot;&gt;&amp;nbsp;Include(params string[] item)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="571.25" width="460" height="288.75" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endSize=10;" parent="1" source="MPQALlwBD312mudl7KqM-2" target="xh8ISiVS043auZkgOC11-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,31 +49,31 @@
         <mxCell id="Ln3_IbKooGcjm2C1sA-I-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.004;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamondThin;startFill=1;startSize=15;endSize=10;" parent="1" source="MPQALlwBD312mudl7KqM-2" target="MPQALlwBD312mudl7KqM-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPQALlwBD312mudl7KqM-2" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- ContextDB _context;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- ManagementDB&amp;lt;T&amp;gt; _management;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt; FindAllAsync();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;T&amp;gt; FindAsync(int id);&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; AddAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; UpdateAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; RemoveAsync(int id);&lt;br&gt;&lt;span style=&quot;background-color: transparent ; font-family: inherit ; font-style: inherit ; font-weight: inherit&quot;&gt;+&amp;nbsp; async Task&amp;lt;T&amp;gt; Include(params string[] item)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MPQALlwBD312mudl7KqM-2" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- ManagementDB&amp;lt;T&amp;gt; _management;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;IEnumerable&amp;lt;T&amp;gt;&amp;gt; FindAllAsync();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ async Task&amp;lt;T&amp;gt; FindAsync(int id);&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; AddAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; UpdateAsync(T item);&lt;br&gt;+&amp;nbsp;async Task&amp;lt;int&amp;gt; RemoveAsync(int id);&lt;br&gt;&lt;span style=&quot;background-color: transparent ; font-family: inherit ; font-style: inherit ; font-weight: inherit&quot;&gt;+&amp;nbsp; async Task&amp;lt;T&amp;gt; Include(params string[] item)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="915" y="470" width="455" height="270" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-3" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 20px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Repository&amp;lt;T&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1062.5" y="470" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-55" value="&lt;font style=&quot;font-size: 20px&quot;&gt;QueryBuilderService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="265" width="170" height="30" as="geometry" />
+          <mxGeometry x="30" y="322.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-61" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ManagementDB&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570.88" y="571.25" width="188.25" height="25" as="geometry" />
+          <mxGeometry x="535.88" y="571.25" width="188.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="MPQALlwBD312mudl7KqM-62" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;string FK {get; set;}&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MPQALlwBD312mudl7KqM-62" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ string FK {get; set;}&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410.63" y="340" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-63" value="&lt;font style=&quot;font-size: 20px&quot;&gt;AttributeFK&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480.63" y="340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MPQALlwBD312mudl7KqM-64" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;string Name {get; set;}&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MPQALlwBD312mudl7KqM-64" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ string Name {get; set;}&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410.63" y="460" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-65" value="&lt;font style=&quot;font-size: 20px&quot;&gt;AttributeName&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480.63" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;startSize=13;endSize=10;dashed=1;" parent="1" source="MPQALlwBD312mudl7KqM-67" target="34TiSVf4T669szflKKgp-6" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.64;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="MPQALlwBD312mudl7KqM-67" target="34TiSVf4T669szflKKgp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPQALlwBD312mudl7KqM-67" value="&lt;font style=&quot;font-size: 15px&quot;&gt;+ string GetConnectionString();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -82,23 +82,26 @@
         <mxCell id="MPQALlwBD312mudl7KqM-68" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ConfigurationServise&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1301.25" y="50" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;startSize=13;endSize=10;" parent="1" source="Ln3_IbKooGcjm2C1sA-I-2" target="z89Pt_e9DT8PRtrNMS4P-4" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endSize=10;" edge="1" parent="1" source="Ln3_IbKooGcjm2C1sA-I-2" target="z89Pt_e9DT8PRtrNMS4P-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ln3_IbKooGcjm2C1sA-I-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string GetTableName(T item)&lt;br&gt;+ bool IsDiscrimanator(T item)&lt;br&gt;+ string GetPKName(T item)&lt;br&gt;+ Dictionary&amp;lt;string, string&amp;gt; GetColumnList(T item)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="312.5" width="380" height="155" as="geometry" />
+        <mxCell id="Ln3_IbKooGcjm2C1sA-I-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string GetTableName(T item)&lt;br&gt;+ bool IsDiscrimanator(T item)&lt;br&gt;+ Dictionary&amp;lt;string, string&amp;gt; GetColumnList(T item)&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;+ PrimaryKey GetPrimaryKey(T item = null)&lt;br&gt;+ Dictionary&amp;lt;string, int?&amp;gt; GetForeignKeys(T item)&lt;br&gt;+ IEnumerable&amp;lt;object&amp;gt; GetRelatedEntities(T item)&lt;br&gt;+(string tableName, PrimaryKey pk) GetTNandPK(T item = null)&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="622.5" width="430" height="227.5" as="geometry" />
         </mxCell>
         <mxCell id="Ln3_IbKooGcjm2C1sA-I-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ReflectionService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="117.5" y="312.5" width="185" height="30" as="geometry" />
+          <mxGeometry x="22.5" y="625" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="34TiSVf4T669szflKKgp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=13;endSize=10;" parent="1" source="Ln3_IbKooGcjm2C1sA-I-7" target="MPQALlwBD312mudl7KqM-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ln3_IbKooGcjm2C1sA-I-7" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- ConfigurationService _configurationService;&lt;br&gt;+ SqlConnection&amp;nbsp;Connection {get;}&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="948.76" y="50" width="270" height="110" as="geometry" />
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ln3_IbKooGcjm2C1sA-I-7" target="Y4HKRLz9_n4AmhTxUSix-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ln3_IbKooGcjm2C1sA-I-8" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ContextDB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1009.39" y="40" width="148.75" height="50" as="geometry" />
+        <mxCell id="Ln3_IbKooGcjm2C1sA-I-7" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- IConfigurationServise configurationService&amp;nbsp;&lt;br&gt;+ SqlConnection&amp;nbsp;Connection {get;}&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="952.5" y="20" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln3_IbKooGcjm2C1sA-I-8" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ContextDB&lt;font color=&quot;#ff0000&quot;&gt;Service&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1009.38" y="10" width="148.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ln3_IbKooGcjm2C1sA-I-13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410.63" y="580" width="260" height="80" as="geometry" />
@@ -106,11 +109,11 @@
         <mxCell id="Ln3_IbKooGcjm2C1sA-I-14" value="&lt;font style=&quot;font-size: 20px&quot;&gt;AttributeRelatedEntities&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1437.5100000000002" y="580" width="206.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ln3_IbKooGcjm2C1sA-I-18" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string GetFindAllQuery();&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+string&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;GetFind&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(int id);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string GetAdd&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;item);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string GetUpdate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;item);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string GetRemove&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(int id);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string Include(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;params string[] item&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="60" width="290" height="170" as="geometry" />
+        <mxCell id="Ln3_IbKooGcjm2C1sA-I-18" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string &lt;font color=&quot;#ff0000&quot;&gt;Generate&lt;/font&gt;FindAllQuery();&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+string&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Find&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(int id);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;item);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Update&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;item);&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Remove&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Query&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;(int id);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ string&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;IncludeQuery(&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;params string[] item&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-55" y="90" width="370" height="185" as="geometry" />
         </mxCell>
         <mxCell id="Ln3_IbKooGcjm2C1sA-I-19" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IQueryBuilderService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="60" width="170" height="30" as="geometry" />
+          <mxGeometry x="54.129999999999995" y="105" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wd2Hrws0WFjHIxpW6gPS-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410.63" y="680" width="260" height="70" as="geometry" />
@@ -118,59 +121,101 @@
         <mxCell id="wd2Hrws0WFjHIxpW6gPS-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;AttributeDiscriminator&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1425.64" y="680" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-1" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;string Name {get; set;}&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-1" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string Name {get; set;}&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410.63" y="770" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z89Pt_e9DT8PRtrNMS4P-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;AttributePK&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1445.63" y="760" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string GetTableName(T item)&lt;br&gt;+ bool IsDiscrimanator(T item)&lt;br&gt;+ string GetPKName(T item)&lt;br&gt;+ Dictionary&amp;lt;string, string&amp;gt; GetColumnList(T item)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="100" width="380" height="160" as="geometry" />
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+ string GetTableName(T item)&lt;br&gt;+ bool IsDiscrimanator(T item)&lt;br&gt;+ Dictionary&amp;lt;string, string&amp;gt; GetColumnList(T item)&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;+ PrimaryKey GetPrimaryKey(T item = null)&lt;br&gt;+ Dictionary&amp;lt;string, int?&amp;gt; GetForeignKeys(T item)&lt;br&gt;+ IEnumerable&amp;lt;object&amp;gt; GetRelatedEntities(T item)&lt;br&gt;+(string tableName, PrimaryKey pk) GetTNandPK(T item = null)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="596.25" width="440" height="250" as="geometry" />
         </mxCell>
         <mxCell id="z89Pt_e9DT8PRtrNMS4P-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IReflectionService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="100" width="185" height="30" as="geometry" />
+          <mxGeometry x="-470" y="605" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z89Pt_e9DT8PRtrNMS4P-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;startSize=10;endSize=10;" parent="1" source="z89Pt_e9DT8PRtrNMS4P-7" target="z89Pt_e9DT8PRtrNMS4P-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-7" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;+T CreateObject(SqlDataReader reader)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="335" y="900" width="310" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;MapService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="900" width="145" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-11" value="&lt;span style=&quot;font-size: 15px&quot;&gt;+T CreateObject(SqlDataReader reader)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="870" width="280" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="z89Pt_e9DT8PRtrNMS4P-12" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IMapService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="790" y="870" width="145" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;+ string GetConnectionString();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1419.3900000000003" y="185" width="242.5" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IConfigurationServise&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1443.7600000000002" y="185" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;startSize=13;endSize=13;dashed=1;" parent="1" source="34TiSVf4T669szflKKgp-14" target="34TiSVf4T669szflKKgp-16" edge="1">
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endSize=10;strokeWidth=1;startArrow=diamondThin;startFill=1;startSize=10;" edge="1" parent="1" source="z89Pt_e9DT8PRtrNMS4P-7" target="Y4HKRLz9_n4AmhTxUSix-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-14" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;+ bool IsRelatedEntity(T item)&lt;br&gt;+ string GetRelatedEntityQuery(T item)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="32.5" y="550" width="380" height="120" as="geometry" />
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="z89Pt_e9DT8PRtrNMS4P-7" target="Ln3_IbKooGcjm2C1sA-I-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-15" value="&lt;font style=&quot;font-size: 20px&quot;&gt;RelatedEntityService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="550" width="185" height="30" as="geometry" />
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-7" value="&lt;h5&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; size=&quot;3&quot;&gt;- IReflectionService&amp;lt;T&amp;gt; reflectionService;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - IDataReaderService dataReaderService;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; size=&quot;3&quot;&gt;+T GenereateObject(IDataReader reader);&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; size=&quot;3&quot;&gt;+ Task GenereateRelatedEntity(IEnumerable&amp;lt;T&amp;gt; foundEntities, IDataReader reader, string property);&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="910" width="450" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-16" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;+ bool IsRelatedEntity(T item)&lt;br&gt;+ string GetRelatedEntityQuery(T item)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="32.5" y="740" width="380" height="110" as="geometry" />
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;MapService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="557.51" y="910" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="34TiSVf4T669szflKKgp-17" value="&lt;span style=&quot;font-size: 20px&quot;&gt;IRelatedEntityService&amp;lt;T&amp;gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="740" width="185" height="30" as="geometry" />
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-11" value="&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;&lt;br&gt;&lt;br&gt;+T GenereateObject(IDataReader reader);&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 15px&quot;&gt;+ Task GenereateRelatedEntity(IEnumerable&amp;lt;T&amp;gt; foundEntities, IDataReader reader, string property);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="903.13" y="960" width="446.87" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z89Pt_e9DT8PRtrNMS4P-12" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IMapService&amp;lt;T&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1054.07" y="960" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="34TiSVf4T669szflKKgp-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;+ string GetConnectionString();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1401.2600000000002" y="-127.5" width="242.5" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="34TiSVf4T669szflKKgp-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;IConfigurationServise&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1425.6400000000003" y="-120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ SqlConnection&amp;nbsp;Connection {get;}&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="-130" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-3" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff0000&quot;&gt;IContextDBService&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1009.38" y="-140" width="148.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1386.99" y="240" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-6" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff0000&quot;&gt;CreateObjectMethodAttribute&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="240" width="315.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-8" value="&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-size: 15px ; color: rgb(255 , 0 , 0) ; font-weight: normal&quot;&gt;+ IDataReader DataReader { get; set; }&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ Task&amp;lt;bool&amp;gt; ReadAsync();&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ int FieldCount();&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ object GetName(int i);&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ object GetValue(int i);&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="890" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-9" value="&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px&quot;&gt;IDataReaderService&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="890" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;endSize=10;" edge="1" parent="1" source="Y4HKRLz9_n4AmhTxUSix-10" target="Y4HKRLz9_n4AmhTxUSix-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-10" value="&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-size: 15px ; color: rgb(255 , 0 , 0) ; font-weight: normal&quot;&gt;+ IDataReader DataReader { get; set; }&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ Task&amp;lt;bool&amp;gt; ReadAsync();&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ int FieldCount();&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ object GetName(int i);&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;+ object GetValue(int i);&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="890" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-11" value="&lt;h4&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px&quot;&gt;DataReaderService&lt;/font&gt;&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-20" value="&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ public string Name { get; set; }&lt;/font&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;+ public int Value { get; set; }&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="900" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-21" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px&quot;&gt;PrimaryKey&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1455.64" y="900" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-23" value="&lt;h5 style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;+ Task&amp;lt;SqlDataReader&amp;gt; ExecuteRearedAsync(SqlConnection connection, string sqlQuery);&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + Task&amp;lt;int&amp;gt; ExecuteNonQueryAsync(SqlConnection connection, string sqlQuery);&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + Task&amp;lt;object&amp;gt; ExecuteScalarAsync(SqlConnection connection, string sqlQuery);&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="155" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-24" value="&lt;p&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff0000&quot;&gt;IExecuteSQLQueryService&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="157.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;startSize=10;endSize=10;strokeWidth=1;dashed=1;" edge="1" parent="1" source="Y4HKRLz9_n4AmhTxUSix-25" target="Y4HKRLz9_n4AmhTxUSix-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-25" value="&lt;h5 style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;+ Task&amp;lt;SqlDataReader&amp;gt; ExecuteRearedAsync(SqlConnection connection, string sqlQuery);&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + Task&amp;lt;int&amp;gt; ExecuteNonQueryAsync(SqlConnection connection, string sqlQuery);&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + Task&amp;lt;object&amp;gt; ExecuteScalarAsync(SqlConnection connection, string sqlQuery);&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="322.5" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-26" value="&lt;p&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff0000&quot;&gt;ExecuteSQLQueryService&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="546.25" y="322.5" width="257.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HKRLz9_n4AmhTxUSix-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;startSize=10;endSize=10;strokeWidth=1;" edge="1" parent="1" source="Y4HKRLz9_n4AmhTxUSix-24" target="Y4HKRLz9_n4AmhTxUSix-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="FH5HWY1pbtsOafotSm40" name="Page-2">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1515" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="afMc5RzHp-fVmn7AAuNn-0" />
         <mxCell id="afMc5RzHp-fVmn7AAuNn-1" parent="afMc5RzHp-fVmn7AAuNn-0" />
@@ -218,7 +263,7 @@
         <mxCell id="afMc5RzHp-fVmn7AAuNn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="afMc5RzHp-fVmn7AAuNn-1" source="afMc5RzHp-fVmn7AAuNn-16" target="afMc5RzHp-fVmn7AAuNn-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EYVFz_k2Z0exPWlOeKqY-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="afMc5RzHp-fVmn7AAuNn-1" source="afMc5RzHp-fVmn7AAuNn-16" target="afMc5RzHp-fVmn7AAuNn-10">
+        <mxCell id="EYVFz_k2Z0exPWlOeKqY-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="afMc5RzHp-fVmn7AAuNn-1" source="afMc5RzHp-fVmn7AAuNn-16" target="afMc5RzHp-fVmn7AAuNn-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afMc5RzHp-fVmn7AAuNn-16" value="Properties&lt;hr&gt;int RepairRange&lt;br&gt;&lt;br&gt;Methods&lt;hr&gt;void Repair()" style="rounded=1;whiteSpace=wrap;html=1;" parent="afMc5RzHp-fVmn7AAuNn-1" vertex="1">
@@ -273,7 +318,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o-yYmZACphFGvU6VBhR6" name="Page-3">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1515" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="zEWnTKuuFFFzYlU-ew_H-0" />
         <mxCell id="zEWnTKuuFFFzYlU-ew_H-1" parent="zEWnTKuuFFFzYlU-ew_H-0" />
